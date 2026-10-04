@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mouse Redragon Prism Pro M997-PRO-1K Wireless",
+    "categoria": "mouse",
+    "precio": "$72.440",
+    "imagen": "https://progaming.cl/wp-content/uploads/2026/08/new-project-2026-08-18t171012210-c3091158-22b8-4510-9df9-7382c91403fe.jpg",
+    "descripcion": "El Redragon Prism Pro M997-PRO-1K es un mouse gamer ultraliviano diseñado para ofrecer precisión, velocidad y libertad de movimiento."
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Gamer Razer Cobra Pro 30000dpi",
+    "categoria": "mouse",
+    "precio": "$33.990",
+    "imagen": "https://progaming.cl/wp-content/uploads/2025/06/new-project-2025-06-10t103702833-c78aa3c7-c543-4bd9-9539-c75865597901.jpg",
+    "descripcion": "Vive una experiencia unica con este nuevo mouse de última generación."
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Gamer Razer Ornata V3 Español RGB Membrana",
+    "categoria": "teclados",
+    "precio": "$25.490",
+    "imagen": "https://progaming.cl/wp-content/uploads/2024/11/1-a16a071a-7697-4fbe-ae6f-1b9550cfecee.png",
+    "descripcion": "El Razer Ornata V3 es un teclado mecánico custom de formato TKL con una construcción completamente metálica en aluminio CNC. Diseñado como un verdadero “tanque”, combina una estructura robusta y estética minimalista con una experiencia de tecleo suave, silenciosa y de sonido profundo."
+  },
+  {
+    "id": 4,
+    "nombre": "Teclado Inalámbrico Fantech MK921 MAXFIT8 White Switch White",
+    "categoria": "teclados",
+    "precio": "$44.990",
+    "imagen": "https://progaming.cl/wp-content/uploads/2026/07/new-project-2026-07-29t134940505-30e7f6ce-f79e-4dc5-bb75-1d9b1136b3e5.jpg",
+    "descripcion": "Personalización Infinita: QMK Firmware y Soporte VIA. Construcción Gasket Mount, Sockets Hot-Swap del Sur y Keycaps de PBT. Conectividad Tri-Mode de Baja Latencia y Autonomía de 4.000 mAh."
+  },
+  {
+    "id": 5,
+    "nombre": "Audífonos Razer Blackshark V2 Hyperspeed",
+    "categoria": "audifonos",
+    "precio": "$39.990",
+    "imagen": "https://progaming.cl/wp-content/uploads/2024/11/107rz00131_1-8a9bf1b1-6925-4543-8501-99792498de86-e638928e-5fb2-4cca-b973-bc343470f0fe.jpg",
+    "descripcion": "Consigue la comodidad ininterrumpida que necesitas para el juego competitivo todo el día con los Razer BlackShark V2 HyperSpeed, unos auriculares para esports inalámbricos y ultraligeros. Diseñados para un rendimiento máximo y un peso mínimo."
+  }
+]

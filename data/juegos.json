@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nombre": "Palworld - PC (Steam)",
+    "plataforma": "PC",
+    "categoria": "Videojuegos",
+    "precioAnterior": "",
+    "precioOferta": "",
+    "descuento": "",
+    "precio": "$15.440",
+    "imagen": "https://gaming-cdn.com/images/products/23295/616x353/palworld-pc-steam-cover.jpg?v=1784827817",
+    "descripcion": "Los Pals pueden luchar, procrear, ayudarte en las labores agrícolas y trabajar en fábricas. También puedes venderlos, despedazarlos y comértelos. Supervivencia: un lugar hostil, sin comida suficiente y plagado de cazadores furtivos."
+  },
+  {
+    "id": 2,
+    "nombre": "DragonSword : Awakening - PC (Steam)",
+    "plataforma": "PC",
+    "categoria": "Videojuegos",
+    "precioAnterior": "",
+    "precioOferta": "",
+    "descuento": "",
+    "precio": "$23.990",
+    "imagen": "https://gaming-cdn.com/images/products/22405/616x353/dragonsword-awakening-pc-steam-cover.jpg?v=1787242597",
+    "descripcion": "Lute, un joven que viaja hacia Orbis —el primer reino construido por la humanidad—, se ve envuelto en las vidas de Johnny, un mercenario, y Castella, una elfa, adentrándose de lleno en la caótica vida de los mercenarios."
+  },
+  {
+    "id": 3,
+    "nombre": "God of War Next - PS5",
+    "plataforma": "PS5",
+    "categoria": "Videojuegos",
+    "precioAnterior": "",
+    "precioOferta": "",
+    "descuento": "",
+    "precio": "$25.490",
+    "imagen": "https://gaming-cdn.com/images/products/23310/616x353/god-of-war-next-playstation-5-playstation-store-cover.jpg?v=1785142043",
+    "descripcion": "Hay quien no quedó demasiado convencido con el anuncio de God of War: Laufey el pasado junio. Esta entrega contará con la mujer de Kratos, la misma que moría al inicio de la entrega de 2018."
+  },
+  {
+    "id": 4,
+    "nombre": "Grand Theft Auto VI - PS5",
+    "plataforma": "PS5",
+    "categoria": "Videojuegos",
+    "precioAnterior": "",
+    "precioOferta": "",
+    "descuento": "",
+    "precio": "$44.990",
+    "imagen": "https://gaming-cdn.com/images/products/15506/616x353/grand-theft-auto-vi-playstation-5-playstation-store-cover.jpg?v=1785732530",
+    "descripcion": "Grand Theft Auto VI (GTA VI) es el octavo juego principal de la serie, la tan esperada próxima entrega después de GTA V, que se lanzó en 2013. También es el decimosexto juego de la serie general."
+  },
+  {
+    "id": 5,
+    "nombre": "Call of Duty: Modern Warfare 4 - PC",
+    "plataforma": "PC",
+    "categoria": "Videojuegos",
+    "precioAnterior": "",
+    "precioOferta": "",
+    "descuento": "",
+    "precio": "$59.990",
+    "imagen": "https://gaming-cdn.com/images/products/16809/616x353/call-of-duty-modern-warfare-4-pc-xbox-series-x-s-microsoft-store-cover.jpg?v=1786970156",
+    "descripcion": "La guerra estalla en la península de Corea cuando Corea del Norte lanza una invasión a gran escala que amenaza con desestabilizar el mundo en Call of Duty: Modern Warfare 4."
+  },
+  {
+    "id": 6,
+    "nombre": "EA Sports FC PC",
+    "plataforma": "PC",
+    "categoria": "Videojuegos",
+    "precioAnterior": "$39.990",
+    "precioOferta": "$33.990",
+    "descuento": "15% OFF",
+    "precio": "$33.990",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwOtZQhGp2dfJ1_Kabe175o7b8mmj2vopVGp2xyr8A2SyHlwHxfftKxUQ&s=10",
+    "descripcion": "Disfruta de una experiencia futbolística con diferentes equipos, jugadores y modos de juego."
+  },
+  {
+    "id": 7,
+    "nombre": "The Legend of Zelda: Tears of the Kingdom PC",
+    "plataforma": "PC",
+    "categoria": "Videojuegos",
+    "precioAnterior": "$49.990",
+    "precioOferta": "$42.490",
+    "descuento": "15% OFF",
+    "precio": "$42.490",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5GW6-EVZcN9ilJVxquL890ravy2187EPN6MTpKkUFZw&s=10",
+    "descripcion": "Explora las tierras y los cielos de Hyrule en una nueva aventura llena de exploración, desafíos y misterios."
+  },
+  {
+    "id": 8,
+    "nombre": "Minecraft PC",
+    "plataforma": "PC",
+    "categoria": "Videojuegos",
+    "precioAnterior": "$29.990",
+    "precioOferta": "$25.490",
+    "descuento": "15% OFF",
+    "precio": "$25.490",
+    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png?w=440",
+    "descripcion": "Construye, explora y sobrevive en un mundo generado de manera única."
+  }
+]
