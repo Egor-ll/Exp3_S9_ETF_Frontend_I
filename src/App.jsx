@@ -29,7 +29,17 @@ function App({ catalogo = 'productos' }) {
 
   const [busqueda, setBusqueda] = useState('')
   const [plataforma, setPlataforma] = useState('')
-  const [categoria, setCategoria] = useState('')
+    const [categoria, setCategoria] = useState(() => {
+        if (catalogo !== 'accesorios') {
+            return ''
+        }
+
+        const parametros = new URLSearchParams(
+            window.location.search
+        )
+
+        return parametros.get('categoria') || ''
+    })
 
   useEffect(() => {
     localStorage.setItem(
@@ -143,10 +153,11 @@ function App({ catalogo = 'productos' }) {
             onLimpiar={limpiarFiltros}
         />
 
-        <ListaProductos
-            productos={productosFiltrados}
-            onAgregar={agregarAlCarrito}
-        />
+          <ListaProductos
+              productos={productosFiltrados}
+              onAgregar={agregarAlCarrito}
+              carrito={carrito}
+          />
 
         {productosFiltrados.length === 0 &&
             productos.length > 0 && (

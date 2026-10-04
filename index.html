@@ -37,67 +37,7 @@
 
 <!-- BARRA DE NAVEGACIÓN -->
 
-<nav
-        class="navbar navbar-expand-lg navbar-dark navbar-elamigo"
-        aria-label="Navegación principal"
->
-  <div class="container">
-
-    <a class="navbar-brand" href="index.html">
-      🎮 El Amigo
-    </a>
-
-    <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menuPrincipal"
-            aria-controls="menuPrincipal"
-            aria-expanded="false"
-            aria-label="Mostrar menú de navegación">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div
-            class="collapse navbar-collapse"
-            id="menuPrincipal">
-      <ul class="navbar-nav ms-auto">
-
-        <li class="nav-item">
-          <a class="nav-link active"
-                  aria-current="page"
-                  href="index.html">
-            Inicio
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link"
-                  href="accesorios.html">
-            Accesorios
-          </a>
-        </li>
-
-        <li class="nav-item">
-
-          <a class="nav-link"
-                  href="games.html">
-            Games
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link"
-                  href="contacto.html">
-            Contacto
-          </a>
-        </li>
-
-      </ul>
-    </div>
-
-  </div>
-</nav>
+<div id="navbar-root"></div>
 
 <!-- CONTENIDO PRINCIPAL -->
 
@@ -175,7 +115,7 @@
       </a>
     </div>
 
-    <!-- Contenido administrado por React -->
+    <!-- CATEGORÍAS ADMINISTRADAS POR REACT -->
     <div
             id="react-root"
             data-catalogo="productos"
@@ -185,55 +125,9 @@
 
   <!-- CATEGORÍAS -->
 
-  <section class="bloque-inicio categorias-inicio"
-          aria-labelledby="titulo-categorias">
-    <div class="encabezado-bloque">
+  <!-- CATEGORÍAS ADMINISTRADAS POR REACT -->
+    <div id="categorias-root"></div>
 
-      <div>
-        <h2 id="titulo-categorias">
-          🎮 EXPLORA NUESTRAS CATEGORÍAS
-        </h2>
-
-        <p>
-          Encuentra exactamente lo que necesitas.
-        </p>
-      </div>
-    </div>
-
-    <div class="categorias-grid">
-
-      <a class="categoria-card categoria-teclados"
-              href="accesorios.html?categoria=teclados">
-        <span>⌨️</span>
-
-        <div>
-          <h3>TECLADOS</h3>
-          <small>Ver teclados →</small>
-        </div>
-      </a>
-
-      <a class="categoria-card categoria-audifonos"
-              href="accesorios.html?categoria=audifonos">
-        <span>🎧</span>
-
-        <div>
-          <h3>AUDÍFONOS</h3>
-          <small>Ver audífonos →</small>
-        </div>
-      </a>
-
-      <a class="categoria-card categoria-mouse"
-              href="accesorios.html?categoria=mouse">
-        <span>🖱️</span>
-
-        <div>
-          <h3>MOUSE</h3>
-          <small>Ver mouse →</small>
-        </div>
-      </a>
-
-    </div>
-  </section>
 
   <!-- BANNER DE VIDEOJUEGOS -->
 
@@ -310,38 +204,10 @@
     </div>
   </section>
 
-  <!--  MANIPULACIÓN DEL DOM -->
 
-  <section class="recomendacion-inicio" aria-labelledby="titulo-recomendacion">
-    <div class="recomendacion-texto">
 
-            <span class="icono-recomendacion">
-                💡
-            </span>
-
-      <div>
-        <h2 id="titulo-recomendacion">
-          ¿NECESITAS AYUDA PARA ELEGIR?
-        </h2>
-
-        <p>
-          Presiona el botón y te mostraremos una recomendación.
-        </p>
-
-        <button type="button" id="btn-recomendacion" class="btn-neon-principal">
-          MOSTRAR RECOMENDACIÓN
-        </button>
-      </div>
-
-    </div>
-
-    <div id="resultado-recomendacion" class="resultado-recomendacion" aria-live="polite">
-      <p>
-        Tu recomendación aparecerá aquí.
-      </p>
-    </div>
-  </section>
-
+  <!-- RECOMENDACIONES ADMINISTRADAS POR REACT -->
+  <div id="recomendaciones-root"></div>
   <!-- CONTACTO -->
 
   <section class="contacto-inicio" aria-labelledby="titulo-contacto-inicio">

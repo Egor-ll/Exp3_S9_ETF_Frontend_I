@@ -1,6 +1,10 @@
 import Producto from './Producto'
 
-function ListaProductos({ productos, onAgregar }) {
+function ListaProductos({
+                            productos,
+                            onAgregar,
+                            carrito
+                        }) {
     return (
         <div className="productos-grid-react">
             {productos.map((producto) => (
@@ -8,6 +12,7 @@ function ListaProductos({ productos, onAgregar }) {
                     key={producto.id}
                     producto={producto}
                     onAgregar={onAgregar}
+                    carrito={carrito}
                 />
             ))}
         </div>

@@ -1,4 +1,10 @@
-function Producto({ producto, onAgregar }) {
+function Producto({ producto, onAgregar, carrito }) {
+
+    // Comprobar si el producto ya está en el carrito
+    const estaEnCarrito = carrito.some(
+        (item) => item.id === producto.id
+    )
+
     return (
         <article className="producto-react">
             <img
@@ -34,8 +40,12 @@ function Producto({ producto, onAgregar }) {
 
             <button
                 type="button"
-                onClick={() => onAgregar(producto)}>
-                🛒 Agregar al carrito
+                onClick={() => onAgregar(producto)}
+                disabled={estaEnCarrito}
+            >
+                {estaEnCarrito
+                    ? '✓ En el carrito'
+                    : '🛒 Agregar al carrito'}
             </button>
         </article>
     )

@@ -32,9 +32,53 @@ function Carrito({
         0
     )
 
-    // El carrito no se muestra cuando está vacío.
-    if (carrito.length === 0) {
-        return null
+    // Mostrar el carrito minimizado cuando está vacío.
+    if (carrito.length === 0 && !minimizado) {
+        return createPortal(
+            <button
+                type="button"
+                className="btn-carrito-minimizado-react"
+                onClick={() => setMinimizado(true)}
+                aria-label="Abrir carrito vacío"
+            >
+                🛒
+
+                <span>
+                0
+            </span>
+            </button>,
+            document.body
+        )
+    }
+
+// Mostrar el carrito vacío cuando está abierto.
+    if (carrito.length === 0 && minimizado) {
+        return createPortal(
+            <aside
+                className="carrito-react"
+                aria-label="Carrito de compras vacío"
+            >
+                <div className="carrito-header-react">
+                    <h2>
+                        🛒 Mi carrito
+                    </h2>
+
+                    <button
+                        type="button"
+                        className="btn-minimizar-react"
+                        onClick={() => setMinimizado(false)}
+                        aria-label="Minimizar carrito"
+                    >
+                        −
+                    </button>
+                </div>
+
+                <p className="cantidad-productos-react">
+                    Tu carrito está vacío.
+                </p>
+            </aside>,
+            document.body
+        )
     }
 
     // Muestra solamente el botón circular cuando está minimizado.
