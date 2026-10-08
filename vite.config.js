@@ -3,9 +3,8 @@ import babel from '@rolldown/plugin-babel'
 import { defineConfig } from 'vite'
 import { resolve } from 'node:path'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/Exp3_S7_FrontendI/',
+  base: '/Exp3_S9_ETF_Frontend_I/',
   plugins: [
     react(),
     babel({
