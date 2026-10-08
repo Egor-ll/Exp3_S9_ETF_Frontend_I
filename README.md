@@ -4,13 +4,13 @@
 
 **El Amigo** es un proyecto de comercio electrónico orientado a la venta y visualización de videojuegos y accesorios para distintas plataformas.
 
-El proyecto forma parte de **Desarrollo Frontend I (PFY2201)** y corresponde a la evolución del eCommerce desarrollado durante las semanas anteriores. En esta Semana 8 se profundizó la integración de **React**, incorporando componentes funcionales, `useState`, `useEffect`, carga dinámica desde archivos JSON, renderizado condicional e interacción con el carrito.
+El proyecto forma parte de **Desarrollo Frontend I (PFY2201)** y corresponde a la evolución del eCommerce desarrollado durante las semanas anteriores. En esta Semana 9, correspondiente a la **Evaluación Final Transversal (EFT)**, se consolidó la integración de **React**, incorporando componentes funcionales, `useState`, `useEffect`, carga dinámica desde archivos JSON, renderizado condicional e interacción con el carrito.
 
 ---
 
-## Objetivos de la Semana 8
+## Objetivos de la Semana 9 — Evaluación Final Transversal
 
-La implementación considera los principales requerimientos de la actividad **“Mejorando funcionalidades clave en el eCommerce con React”**:
+La implementación considera los principales requerimientos de la actividad de la **Evaluación Final Transversal de Desarrollo Frontend I**:
 
 - Administrar mediante `useState` la información del catálogo.
 - Administrar mediante `useState` los productos seleccionados en el carrito.
@@ -23,7 +23,7 @@ La implementación considera los principales requerimientos de la actividad **�
 - Organizar el código mediante componentes React reutilizables.
 - Evitar duplicación innecesaria de código.
 - Mantener una estructura clara de carpetas.
-- Preparar el proyecto para publicación mediante GitHub y `gh-pages`.
+- Mantener el proyecto publicado mediante GitHub y GitHub Pages.
 
 ---
 
@@ -473,34 +473,40 @@ El resultado se genera en `dist/`.
 
 ---
 
-# GitHub Pages
+# GitHub y GitHub Pages
 
-El proyecto contiene scripts preparados para desplegar mediante `gh-pages`:
+El proyecto final se encuentra versionado y publicado mediante GitHub.
 
-```json
-"predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+### Repositorio
+
+**GitHub:**  
+https://github.com/Egor-ll/Exp3_S9_ETF_Frontend_I/
+
+### Sitio publicado
+
+**GitHub Pages:**  
+https://egor-ll.github.io/Exp3_S9_ETF_Frontend_I/
+
+### Configuración de Vite
+
+La aplicación utiliza la siguiente ruta base para funcionar correctamente en GitHub Pages:
+
+```text
+/Exp3_S9_ETF_Frontend_I/
 ```
 
-El despliegue se ejecuta mediante:
+### Proceso de construcción y despliegue
+
+El proyecto utiliza Vite para generar la versión de producción y `gh-pages` para publicarla.
 
 ```bash
+npm run build
 npm run deploy
 ```
 
-La configuración de Vite utiliza como base:
+El comando `build` genera la carpeta `dist/` y el comando `deploy` publica su contenido mediante la rama `gh-pages`.
 
-```text
-/Exp3_S7_FrontendI/
-```
-
-### Enlaces de entrega
-
-**Repositorio GitHub:** pendiente de verificación final.
-
-**GitHub Pages:** pendiente de verificación final.
-
-> No se incorpora una URL definitiva hasta comprobar directamente el repositorio y el despliegue.
+La publicación final fue realizada correctamente y el sitio se encuentra disponible en GitHub Pages.
 
 ---
 
@@ -545,6 +551,25 @@ La configuración de Vite utiliza como base:
 - [x] Minimizar y restaurar.
 - [x] Mostrar estado vacío.
 - [x] Persistir mediante `localStorage`.
+
+## Formulario de contacto
+
+- [x] Formulario estructurado con Bootstrap 5.
+- [x] Validación de campos.
+- [x] Mensajes de validación al usuario.
+
+## Responsividad
+
+- [x] Diseño adaptable a diferentes tamaños de pantalla.
+- [x] Pruebas de visualización en escritorio y ventanas reducidas.
+- [x] Uso combinado de CSS, Flexbox, Grid y Bootstrap 5.
+
+## Publicación
+
+- [x] Repositorio GitHub actualizado.
+- [x] Build de producción generado correctamente.
+- [x] Publicación mediante `gh-pages` realizada correctamente.
+- [x] GitHub Pages operativo.
 
 ## Renderizado condicional
 
@@ -619,7 +644,7 @@ Captura mostrando el Navbar y el enlace activo correspondiente.
 | Organización | Componentes separados en `src/components` |
 | Evitar duplicación | `.map()` y componentes reutilizables |
 | GitHub | Repositorio público |
-| gh-pages | Scripts `build` y `deploy` configurados |
+| GitHub Pages | Proyecto construido y publicado mediante `gh-pages` |
 
 ---
 
@@ -676,7 +701,7 @@ La aplicación cuenta con:
 - Categorías administradas por React.
 - Recomendaciones interactivas.
 - Estructura organizada de componentes.
-- Preparación para publicación mediante GitHub Pages.
+- Publicación funcional mediante GitHub Pages.
 
 El objetivo de esta implementación es demostrar el uso práctico de React dentro de un proyecto eCommerce existente, incorporando estados, efectos, componentes reutilizables e interacción dinámica sin perder la estructura y diseño desarrollados en las etapas anteriores.
 
@@ -687,14 +712,14 @@ El objetivo de esta implementación es demostrar el uso práctico de React dentr
 **Egor Llancapichun**
 
 **Asignatura:** Desarrollo Frontend I (PFY2201)  
-**Actividad:** Semana 8 - Evaluación Sumativa  
+**Actividad:** Semana 9 - Evaluación Final Transversal (EFT)  
 **Proyecto:** El Amigo
 
 ---
 
 ## Estado del proyecto
 
-**Versión:** Semana 8  
+**Versión:** Semana 9 - EFT  
 **Framework principal:** React  
 **Bundler:** Vite  
-**Estado:** Funcionalidades React implementadas y listas para pruebas finales, evidencias y publicación.
+**Estado:** Proyecto funcional, con pruebas finales realizadas y publicado en GitHub Pages.
